@@ -4,6 +4,7 @@
 
 set nocompatible
 filetype off
+set number
 
 "Tab Settings
 set tabstop=2
@@ -12,6 +13,9 @@ set expandtab
 
 "Latency Tweak for changing modes
 set timeoutlen=1000 ttimeoutlen=0
+
+"NerdTree Keymap
+nmap <C-o> :NERDTreeToggle<CR>
 
 " set the runtime path to include Vundle and initalize
 set rtp+=~/.vim/bundle/Vundle.vim
