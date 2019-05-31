@@ -7,15 +7,17 @@ filetype off
 set number
 
 "Tab Settings
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 
 "Latency Tweak for changing modes
 set timeoutlen=1000 ttimeoutlen=0
 
-"NerdTree Keymap
+"Keymappings
 nmap <C-o> :NERDTreeToggle<CR>
+map <C-J> :bnext<CR>
+map <C-K> :bprev<CR>
 
 " set the runtime path to include Vundle and initalize
 set rtp+=~/.vim/bundle/Vundle.vim
